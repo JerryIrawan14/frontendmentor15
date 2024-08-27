@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styling/styleGeneral.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <title>Frontend Mentor | Contact form</title>
+
+</head>
+<body>
+  <main>
+  <div class="container" role="section">
+    <div class="title">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="fname flex gap" role="form">
+      <label for="fname" aria-required="">first name *</label>
+      <input type="text" required id="fname">
+      <span></span>
+    </div>
+    <div class="lname flex gap" role="form">
+      <label for="lname">last name  *</label>
+      <input type="text" required id="lname">
+      <span></span>
+    </div>
+    <div class="email flex gap" role="form">
+      <label for="email">email address  *</label>
+      <input type="email" required id="email">
+      <span></span>
+    </div>
+    <div class="query-text" role="label">
+      <label for="query-type">Query Type  *</label>
+    </div>
+    <div class="general query-border" role="form">
+      <input type="radio" name="query" required>
+      <label for="GE">General Enquiry</label>
+    </div>
+    <div class="support query-border" role="form">
+      <input type="radio" name="query" required>
+      <label for="SR">Support Request</label>
+    </div>
+    <div class="message flex gap" role="form">
+      <label for="message">Message  *</label>
+      <input type="text" required>
+      <span></span>
+    </div>
+    <div class="checkbox gap " role="form">
+      <input type="checkbox" required>
+      <label for="checkbox">I consent to being contacted by the team  *</label>
+      <span></span>
+    </div>
+    <div class="button" role="button">
+      <button id="btn">Submit</button>
+    </div>
+
+
+  </div>
+  </main>
+  <!-- Contact Us
+
+  First Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  I consent to being contacted by the team
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon! -->
+  
+ 
+</body>
+</html>
